@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página - Módulo I - Primeiros Passos com HTML</title>
+</head>
+<body>
+    <h1 id="inicio">Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2>Índice</h2>
+    
+    <ul>
+        <li><a href="#historia">História dos computadores</a></li>
+        <li><a href="#clients">O que são <i>Clients</i>?</a></li>
+        <li><a href="#servers">O que são <i>Servers</i>?</a></li>
+        <li><a href="#estrutura">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#listas">Entendendo a diferença entre listas ordenadas e não ordenadas</a></li>
+        <li><a href="#links">Links de referências</a></li>
+    </ul>
+
+    <h2 id="historia">História dos computadores</h2> <small><a href="#inicio">(voltar)</a></small>
+    <p>O primeiro computador foi criado entre 1943 e 1946 e se chamava Eletronic Numerical Integrator and Computer — ENIAC.
+
+        Para o seu desenvolvimento, foi investido cerca de 6 milhões de dólares e seu funcionamento dependia de uma série de fatores, como 200 mil watts de energia.
+        
+        Um fator de grande importância é a memória, algo que não tinha na época do ENIAC. Cerca de 10 anos depois, foi lançado o RAMAX 305, uma máquina de armazenamento em disco feito pela IBM.
+        
+        No começo, só empresas e certas instituições faziam uso de um computador e, com o passar do tempo, essa tecnologia seria acessada por todos. </p>
+        <p>Em 1993, surgiu a World Wide Web, mais conhecida como WWW. Além disso, o celular começava a surgir para atender as necessidades das empresas. Do ENIAC para o primeiro smartphone, passaram-se cerca de 70 anos.</p>
+   
+
+    <h2 id="clients">O que são <i>Clients</i>?</h2> <small><a href="#inicio">(voltar)</a></small>
+    <p>No desenvolvimento da web, <strong>lado do cliente</strong> refere-se a tudo em um aplicativo web que é exibido ou ocorre no cliente (dispositivo do usuário final). 
+        Isso inclui o que o usuário vê, como texto, imagens e o resto da IU, junto com quaisquer ações que um aplicativo execute no navegador do usuário.</p>
+        
+        <p>Linguagens de marcação como HTML e CSS são interpretadas pelo navegador no lado do cliente. Além disso, muitos desenvolvedores contemporâneos estão incluindo processos do lado do cliente em sua arquitetura de aplicativos e deixando de fazer tudo no lado do servidor; a lógica de negócios para páginas web dinâmicas, por exemplo, geralmente é executada no lado do cliente em um aplicativo web moderno. Os processos do lado do cliente quase sempre são escritos em JavaScript.</p>
+    
+        <p>No exemplo da netflix.com, o HTML, CSS e JavaScript que ditam como a página principal da Netflix aparece para o usuário são interpretados pelo navegador no lado do cliente. A página também pode responder a "eventos": por exemplo, se o mouse do usuário passar sobre uma das imagens em miniatura do filme, a imagem se expande e as miniaturas adjacentes se movem ligeiramente para um lado para abrir espaço para a imagem maior. Este é um exemplo de processo do lado do cliente; o código dentro da própria página web responde ao mouse do usuário e inicia essa ação sem se comunicar com o servidor.</p>
+        
+        <p>O lado do cliente também é conhecido como front-end, embora esses dois termos não signifiquem exatamente a mesma coisa. O lado do cliente se refere apenas ao local onde os processos são executados, enquanto o front-end se refere aos tipos de processos que são executados no lado do cliente.</p>
+     
+    <h2 id="servers">O que são <i>Servers</i>?</h2> <small><a href="#inicio">(voltar)</a></small>
+    <p>Muito parecido com o lado do cliente, o <strong>lado do servidor</strong> significa tudo o que acontece no servidor, em vez de no cliente. No passado, quase toda a lógica de negócios era executada no lado do servidor e isso incluía renderizar páginas da web dinâmicas, interagir com bancos de dados, autenticação de identidade e notificações push.</p>
+    <p>O problema de hospedar todos esses processos no lado do servidor é que cada solicitação envolvendo um deles tem que viajar desde o cliente até o servidor, todas as vezes. Isso apresenta uma grande quantidade de latência. Por esse motivo, os aplicativos contemporâneos executam mais códigos no lado do cliente; um caso de uso é renderizar páginas da web dinâmicas em tempo real, executando scripts no navegador que fazem alterações no conteúdo que o usuário vê.</p>
+    <p>Como com "front-end" e "lado do cliente", back-end também é um termo para os processos que ocorrem no servidor, embora back-end se refira apenas aos tipos de processos e lado do servidor se refira ao local onde os processos são executados.</p>
+   
+
+    <h2 id="estrutura">Como é uma estrutura básica de um HTML?</h2> <small><a href="#inicio">(voltar)</a></small>
+    <p>Um documento HTML válido precisa seguir obrigatoriamente a estrutura composta pelas tags "html", "head" e "body" e a instrução "!DOCTYPE". Esta estrutura está informada em uma documentação que descreve todos os detalhes do HTML, no caso as tags e atributos, e como os navegadores devem considerar e interpretar estas tags, esta documentação é chamada de "especificação do HTML", e através do que está declarado nela que é possível entender se um documento HTML válido. Um documento HTML inválido é carregado pelo navegador, porém em um "modo de compatibilidade".</p>
+    
+
+    <h2 id="listas">Entendendo a diferença entre listas ordenadas e não ordenadas</h2> <small><a href="#inicio">(voltar)</a></small>
+    <p>A principal diferença entre a lista ordenada e a lista não-ordenada está na maneira com que os itens de cada lista são apresentados - a lista ordenada enumera os elementos; a lista não-ordenada coloca marcadores antes de cada elemento.</p>
+
+    <h2>Exemplo de lista ordenada</h2>
+    <ol>
+        <li>Corinthians</li>
+        <li>Palmeiras</li>
+        <li>Santos</li>
+        <li>São Paulo</li>
+    </ol>
+
+    <h2>Exemplo de lista não ordenada</h2>
+    <ul>
+        <li>Corinthians</li>
+        <li>Palmeiras</li>
+        <li>Santos</li>
+        <li>São Paulo</li>
+    </ul>
+    
+
+    <h2 id="links">Links de referências</h2> <small><a href="#inicio">(voltar)</a></small>
+   
+    <ul>
+        <li><a href="https://www.dio.me/" target="_blank">http://dio.me</a></li>
+        <li><a href="https://w3c.br/" target="_blank">http://w3c.br</a></li>
+        <li><a href="https://stackoverflow.com/" target="_blank">https://stackoverflow.com/</a></li>
+    </ul>
+
+</body>
+</html>
